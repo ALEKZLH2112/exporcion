@@ -3,7 +3,8 @@ def example(x,y):
     num2 = y
     suma = num1 + num2
     mult = num1 * num2
-    print("Esta es mi suma {}, y esta es la multiplicacion {}".format(suma, mult))
+    div = num1 / num2
+    print("Esta es mi suma {}, y esta es la multiplicacion {}, y esta es la division {}".format(suma, mult, div))
 
 example(1,2)
 
